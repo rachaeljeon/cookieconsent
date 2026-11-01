@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Experimental text goes here! Some important information is displayed.</h1>
+            </div>
+            <div class="container">
+                <div id="land">
+                    <h1>💰 Land a job with a 6 figure salary 💰</h1>
+                </div>
+                <div id="master">
+                    <h1>💻 Master JavaScript in 3 hours 💻</h1>
+                </div>
+                <div id="learn">
+                    <h1>🫎 Learn React in minutes 🫎</h1>
+                </div>
+                <div id="be">
+                    <h1>🐎 Be a NodeJS Dev by lunctime 🐎</h1>
+                </div>
+                <div>
+                    <h1>My subliminal learning techinque worked for everyone and it can work for you too!
+                    </h1>
+                </div>
+            </div>
+            <img src="images/react.png" />
+        </main>
+        <div class="modal" id="modal">
+			<div class="close-modal-btn-container">
+				<button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+			</div>
+			<div class="modal-inner" id="modal-inner">
+				<h2>We ❤️ Your Data!</h2>
+				<p class="modal-text" id="modal-text">
+                    We have a strict policy on letting viewers access the website.
+                    To use this site, enter your name and email address and 
+                    accept our ridiculous terms and conditions. 
+                </p>
+                <form id="consent-form">
+                    <input 
+                        type="text" 
+                        name="fullName" 
+                        placeholder="Enter your name"
+                        pattern="[a-zA-Z0-9]+"
+                        required
+                    >
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Enter your email"
+                        required
+                    >
+                    <div class="modal-btns" id="modal-btns">
+                        <button type="submit" class="modal-btn">Accept</button>
+                        <button class="modal-btn" id="decline-btn">Decline</button>
+                    </div>
+                </form>
+            </div>
+		</div>
+        <script src="index.js"></script>
+    </body>
+</html>

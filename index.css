@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#land {
+    background-color: lightgreen;  
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+#master {
+    background-color: rgb(255, 255, 98);
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+#learn {
+    background-color: lightblue;
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+#be {
+    background-color: lightpink;
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+/* modal */
+  
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.modal-inner{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+/* modal buttons */
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: whitesmoke;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+.modal-close-btn:disabled{
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.modal-btns{
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btns-reverse{
+    flex-direction: row-reverse;
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+/* modal input */
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.modal-display-name{
+    color: fuchsia;
+}
+
+.modal-text{
+    height: 100px;
+    line-height: 23px;
+}
+
+/* Loading GIF */
+.loading {
+    height: 80px;
+    width: 80px;
+}
+
+.modal-btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
